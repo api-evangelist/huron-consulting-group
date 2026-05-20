@@ -28,6 +28,8 @@ apis:
     description: >-
       The Huron Consulting Group API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/huronconsulting
   - type: Website
     url: https://www.huronconsultinggroup.com
 maintainers:
