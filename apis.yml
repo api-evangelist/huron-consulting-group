@@ -33,7 +33,7 @@ tags:
 description: >-
   Huron Consulting Group is a major US corporation and Fortune 1000 company. The Huron Consulting Group API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 created: '2026-04-19'
-modified: '2026-04-19'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: huron-consulting-group:huron-consulting-group-api
@@ -51,6 +51,8 @@ apis:
     description: >-
       The Huron Consulting Group API provides access to platform services and data for enterprise integration and automation.
 common:
+  - url: https://www.huronconsultinggroup.com/en/insights
+    type: Blog
   - type: DomainSecurity
     url: security/huron-consulting-group-domain-security.yml
   - type: LinkedIn
