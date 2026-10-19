@@ -62,3 +62,91 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: huron-consulting-group-salesforce-consulting-partner-program
+  label: Salesforce Consulting Partner Program
+  partner: salesforce
+  partner_name: Salesforce Consulting Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000003Ie1UEAS
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Salesforce AppExchange consultants (recommendations/v3 listings type=consultants)
+    spec_file: null
+    standard: Salesforce consulting partner (AppExchange)
+    role: salesforce-consulting-partner
+    registered_name: Huron Consulting Group
+    register_id: a0N30000003Ie1UEAS
+    partner_tier: Summit
+    matched_domain: huronconsultinggroup.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    certified_products:
+    - product: Education (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Healthcare and Life Sciences (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Nonprofit (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Agentforce Marketing (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Sales (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Service (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Analytics (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Platform (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Small Business (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+  status: not-a-workflow
+  arazzo: null
+- slug: huron-consulting-group-snowflake-services-partner-program
+  label: Snowflake Services Partner Program
+  partner: snowflake
+  partner_name: Snowflake Services Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://www.snowflake.com/en/why-snowflake/partners/all-partners/huron-consulting/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Snowflake partner directory (filterable_resources.filter.json + partner model.json)
+    spec_file: null
+    standard: Snowflake services partner
+    role: snowflake-services-partner
+    registered_name: Huron Consulting
+    register_id: huron-consulting
+    partner_tier: Premier
+    matched_domain: huronconsultinggroup.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    context:
+      badge: Snowflake AI Data Cloud Premier Services Partner badge
+    certified_products:
+    - product: Analytics
+      type: Snowflake workload specialization
+      lapsed: false
+  status: not-a-workflow
+  arazzo: null
