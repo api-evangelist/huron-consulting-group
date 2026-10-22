@@ -55,40 +55,6 @@ edges:
   badges:
   - Built on Workday
   - Workday Adaptive Planning Template
-- partner_name: FedRAMP
-  partner: null
-  partner_match: register
-  type: contract
-  channel: regulator-register
-  relationship: standard-participant
-  direction: partner-built
-  evidence: https://marketplace.fedramp.gov/products/FR2020746034
-  category: FedRAMP In Process
-  contract_reference:
-    register: FedRAMP Marketplace data (github.com/18F/fedramp-data data/data.json @4b73d9247f)
-    standard: FedRAMP
-    spec_file: null
-    role: fedramp-in-process
-    registered_name: Huron Consulting Group
-    register_id: FR2020746034
-    matched_domain: huronconsultinggroup.com
-    matched_by: domain
-    domain_source: website
-    designations:
-    - In Process
-    packages:
-    - Huron Performance Accelerators
-    service_models:
-    - SaaS
-    paths:
-    - Agency
-    signal_note: certified_products = one entry per AUTHORIZED impact level, never per package; packages, service
-      models, paths and leveraging agencies are context, never counted. The register lists current designations
-      only (revoked / expired are removed), so lapsed is always false
-    detected_by: sweep-gov-cloud.py
-    detected: '2026-10-15'
-  detected_by: sweep-gov-cloud.py
-  first_seen: '2026-10-15'
 - partner_name: Salesforce Consulting Partner Program
   partner: salesforce
   partner_match: register
@@ -175,5 +141,39 @@ edges:
       lapsed: false
   detected_by: sweep-professional-services.py
   first_seen: '2026-10-19'
+- partner_name: FedRAMP
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://marketplace.fedramp.gov/products/FR2020746034
+  category: FedRAMP In Process
+  contract_reference:
+    register: FedRAMP Marketplace data (github.com/18F/fedramp-data data/data.json @4b73d9247f)
+    standard: FedRAMP
+    spec_file: null
+    role: fedramp-in-process
+    registered_name: Huron Consulting Group
+    register_id: FR2020746034
+    matched_domain: huronconsultinggroup.com
+    matched_by: domain
+    domain_source: website
+    designations:
+    - In Process
+    packages:
+    - Huron Performance Accelerators
+    service_models:
+    - SaaS
+    paths:
+    - Agency
+    signal_note: certified_products = one entry per AUTHORIZED impact level, never per package; packages, service
+      models, paths and leveraging agencies are context, never counted. The register lists current designations
+      only (revoked / expired are removed), so lapsed is always false
+    detected_by: sweep-gov-cloud.py
+    detected: '2026-10-15'
+  detected_by: sweep-gov-cloud.py
+  first_seen: '2026-10-15'
 source:
 - workday/integrations/workday-integration-edges.yml
